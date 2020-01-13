@@ -181,6 +181,10 @@
     <Compile Include="Migrations\202001101608587_ChangedBirthDateToDateTimeInsteadOfString.Designer.cs">
       <DependentUpon>202001101608587_ChangedBirthDateToDateTimeInsteadOfString.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202001131146310_ToTest.cs" />
+    <Compile Include="Migrations\202001131146310_ToTest.Designer.cs">
+      <DependentUpon>202001131146310_ToTest.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Genre.cs" />
@@ -299,6 +303,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202001101608587_ChangedBirthDateToDateTimeInsteadOfString.resx">
       <DependentUpon>202001101608587_ChangedBirthDateToDateTimeInsteadOfString.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001131146310_ToTest.resx">
+      <DependentUpon>202001131146310_ToTest.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
