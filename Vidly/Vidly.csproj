@@ -185,6 +185,10 @@
     <Compile Include="Migrations\202001131146310_ToTest.Designer.cs">
       <DependentUpon>202001131146310_ToTest.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202001131429419_MadeCustomerIdRequired.cs" />
+    <Compile Include="Migrations\202001131429419_MadeCustomerIdRequired.Designer.cs">
+      <DependentUpon>202001131429419_MadeCustomerIdRequired.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Genre.cs" />
@@ -306,6 +310,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202001131146310_ToTest.resx">
       <DependentUpon>202001131146310_ToTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001131429419_MadeCustomerIdRequired.resx">
+      <DependentUpon>202001131429419_MadeCustomerIdRequired.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
